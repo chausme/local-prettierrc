@@ -16,6 +16,5 @@ noninteractive=$(grep "# If not running interactively, don't do anything" ~/.bas
 if [[ -z $noninteractive ]]; then
     source ~/.bashrc
 else
-    
     exec bash
 fi
