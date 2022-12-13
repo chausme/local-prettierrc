@@ -11,7 +11,7 @@ echo "alias prc='cp ~/.prettierrc.json .'" >>  ~/.bash_aliases
 
 # Ubuntu hack to reload .bashrc by opening another bash process
 
-noninteractive=$(grep "# If not running interactively, don't do anything" ~/.bashrc -n | cut -f1 -d:)
+noninteractive=$(grep "*i*) ;;" ~/.bashrc -n)
 
 if [[ -z $noninteractive ]]; then
     source ~/.bashrc

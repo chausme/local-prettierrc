@@ -2,7 +2,7 @@
 
 <h4 align="center">Super simple alias for including local .prettierrc.json</h4>
 
-<h2 align="center">🚢</h2>
+<h3 align="center">🚢</h3>
 
 ## Installation
 
