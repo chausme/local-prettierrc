@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-chmod +x prettier-alias-install.sh && ./prettier-alias-install.sh
+chmod +x prettier-alias-add.sh && ./prettier-alias-add.sh
 ```
 
 -   Creates `~/.bash_aliases` if doesn't exist
