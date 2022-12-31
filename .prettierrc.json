@@ -9,20 +9,20 @@
     "arrowParens": "avoid",
     "overrides": [
         {
-            "files": ".eslintrc.json",
+            "files": "*.*rc",
             "options": { "parser": "json" }
-        },
-        {
-            "files": ".prettierrc.json",
-            "options": { "parser": "json" }
-        },
-        {
-            "files": "*.scss",
-            "options": { "parser": "scss" }
         },
         {
             "files": "*.json",
             "options": { "parser": "json" }
+        },
+        {
+            "files": "*.scss",
+            "options": { "parser": "scss", "singleQuote": false }
+        },
+        {
+            "files": "*.css",
+            "options": { "parser": "css", "singleQuote": false }
         },
         {
             "files": "*.html",
@@ -31,6 +31,10 @@
         {
             "files": "*.md",
             "options": { "parser": "markdown" }
+        },
+        {
+            "files": "*.hbs",
+            "options": { "parser": "glimmer", "singleQuote": false }
         }
     ]
 }
